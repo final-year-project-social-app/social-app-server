@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb+srv://prahlad:prahlad@socialappcluster.igiyj67.mongodb.net/social-app', { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect('mongodb+srv://userName:password@socialappcluster.igiyj67.mongodb.net/social-app', { useUnifiedTopology: true, useNewUrlParser: true });
 
 const connection = mongoose.connection
 
